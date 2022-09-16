@@ -1,0 +1,61 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stopwatch-container{
+    width: 400px;
+    height: 150px;
+    background-color: aqua;
+    border-radius: 6px;
+}
+
+.times{
+    width: 350px;
+    margin:30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.time-box{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}   
+
+.btn-container button{
+    border: none;
+    padding: 7px 13px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.btn-container button:nth-child(1){
+    background-color: #a55cf8;
+}
+.btn-container button:nth-child(2){
+    background-color: rgb(86, 70, 41);
+}
+.btn-container button:nth-child(3){
+    background-color: rgb(157, 107, 14);
+}
+.btn-container button:nth-child(4){
+    background-color: rgb(5, 79, 64);
+}
+
